@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, Achievement } from '../../components'
+import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, Achievement, Certifications } from '../../components'
 import { headerData } from '../../data/headerData'
 
 function Main() {
@@ -15,9 +15,10 @@ function Main() {
             <Landing />
             {/* <About /> */}
             <Skills />
-            <Education />            
+            <Education />       
+            <Certifications />
             <Projects />
-            <Achievement />
+            <Achievement /> {/* Experience로 사용됨 */}
             {/* <Blog /> */}
             <Contacts />
             {/* <Footer /> */}
