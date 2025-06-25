@@ -199,7 +199,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#about'
                                 smooth={true}
@@ -210,6 +210,24 @@ function Navbar() {
                                     <FaUser className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
                                         About
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade> */}
+
+                        <Fade left>
+                            <NavLink
+                                to='/#skills'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <BsFillGearFill
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Skills
                                     </span>
                                 </div>
                             </NavLink>
@@ -235,17 +253,18 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skills'
+                                to='/#certifications'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
                             >
                                 <div className={classes.drawerItem}>
-                                    <BsFillGearFill
+                                    <HiDocumentText
                                         className={classes.drawerIcon}
                                     />
-                                    <span className={classes.drawerLinks}>
-                                        Skills
+                                    <span className={classes.drawerLinks}
+                                    style={{ fontSize: '1rem' }}>
+                                        Certifications
                                     </span>
                                 </div>
                             </NavLink>
@@ -264,6 +283,25 @@ function Navbar() {
                                     />
                                     <span className={classes.drawerLinks}>
                                         Projects
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#achievement' // Experience 로 사용됨
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}
+                                    style={{ fontSize: '1rem' }}>
+                                        Experience
                                     </span>
                                 </div>
                             </NavLink>

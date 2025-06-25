@@ -151,6 +151,8 @@ function Landing() {
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.secondary,
+                        maxWidth: '300px',
+                        maxHeight: '300px',
                     }}
                 />
                 <div
@@ -159,14 +161,17 @@ function Landing() {
                 >
                     <div
                         className='lcr--content'
-                        style={{ color: theme.tertiary }}
+                        style={{ 
+                            color: theme.tertiary 
+
+                        }}
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
-                            {headerData.resumePdf && (
+                            {/* {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
                                     download='resume'
@@ -177,7 +182,7 @@ function Landing() {
                                         Download CV
                                     </Button>
                                 </a>
-                            )}
+                            )} */}
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}

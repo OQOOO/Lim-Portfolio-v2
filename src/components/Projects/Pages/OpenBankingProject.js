@@ -6,6 +6,8 @@ import { ThemeContext } from '../../../contexts/ThemeContext';
 import openBankingImage from '../../../assets/gif/op1.gif';
 import InfoSection from "./InfoSection";
 
+import { FaGithub } from 'react-icons/fa';
+
 /*
  * 
  * <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
@@ -139,7 +141,13 @@ function OpenBankingProject() {
             />
             
 
-
+            <a
+                href={'https://github.com/OQOOO/OpenBankingProject'}
+                target='_blank'
+                style={{marginTop: "50px", display: "inline-block"}}
+            >
+                <FaGithub aria-label='GitHub' style={{width: "50px", height: "50px", color: theme.primary}}/>
+            </a>
 
         </div>
     );

@@ -1,5 +1,5 @@
 export const achievementData = {
-    bio : "Experience is the teacher of all things. - Julius Caesar",
+    bio : "In theory, there is no difference between theory and practice. But, in practice, there is. - Jan L. A. van de Snepscheut",
     achievements : [
         {
             id : 1,
