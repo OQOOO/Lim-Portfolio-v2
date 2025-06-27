@@ -29,14 +29,16 @@ function OpenBankingProject() {
                     }
                 `}
             </style>
-            <h1 style={{color: theme.primary}}>오픈뱅킹</h1> 
+            <div div style={{ display: "flex", alignItems: "center", gap: "16px"}}>
+                <h1 style={{color: theme.primary}}>오픈뱅킹</h1> 
+                <p style={{color: theme.tertiary80, fontSize:'0.9rem', marginTop: '15px'}}>
+                    2023.06 ~ 2023.07
+            </p>
+            </div>
             <p style={{color: theme.tertiary80, fontWeight: "bold"}}>
-                스프링을 사용한 오픈뱅킹 구현 프로젝트
+                Spring을 사용한 오픈뱅킹 구현 프로젝트
             </p>
 
-            <p style={{color: theme.tertiary80, fontWeight: "bold"}}>
-                진행 기간: 2023.06 ~ 2023.07
-            </p>
 
             <br/>
 
@@ -48,7 +50,7 @@ function OpenBankingProject() {
                 여러 금융 서비스(모의 은행)의 계좌를 조회하고 자금을 이체할 수 있는 오픈뱅킹 서비스입니다.
                 타 서버로 구현된 모의 은행들의 계좌를 조회, 관리하고, 송금을 진행할 수 있으며, 모의 자금의 송금 과정을 트랜잭션으로 관리합니다.
 
-                기본적으로 팀 프로젝트지만 팀원 각자가 구현한 모의 은행을 연결하는 식으로 진행되어 개인 프로젝트의 성격도 강한 형태의 프로젝트로, 저는 해당 프로젝트에서 주도적으로 설계와 구현을 진행하고 팀원들에게 공유하는 역할을 맡았습니다.
+                기본적으로 팀 프로젝트지만 팀원 각자가 구현한 모의 은행을 연결하는 식으로 진행되어 개인 프로젝트의 성격도 강한 형태의 프로젝트로 저는 해당 프로젝트에서 주도적으로 설계와 구현을 진행하고 팀원들에게 공유하는 역할을 맡았습니다.
 
                 `}
             </p>

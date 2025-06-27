@@ -28,13 +28,16 @@ function AIWebServiceProject() {
                     }
                 `}
             </style>
-            <h1 style={{color: theme.primary}}>AI 서비스 플랫폼</h1> 
-            <p style={{color: theme.tertiary80, fontWeight: "bold"}}>
-                AI 모델을 활용한 웹 서비스 구현 프로젝트
-            </p>
+            <div div style={{ display: "flex", alignItems: "center", gap: "16px"}}>
+                <h1 style={{color: theme.primary}}>AI 서비스 플랫폼</h1> 
+                <p style={{color: theme.tertiary80, fontSize:'0.9rem', marginTop: '15px'}}>
+                    2025.05 ~ 2025.06
+                </p>
+            </div>
 
+            
             <p style={{color: theme.tertiary80, fontWeight: "bold"}}>
-                진행 기간: 2025.05 ~ 2025.06
+                    AI 모델을 활용한 웹 서비스 구현 프로젝트
             </p>
 
             <br/>
@@ -46,7 +49,7 @@ function AIWebServiceProject() {
                 {`
                 각종 AI 모델을 활용하여 서비스를 제공하는 웹 플랫폼입니다.
 
-                AI 모델 활용 역량을 증명하기 위해 시작된 프로젝트로, 언어 모델과 글자 인식 모델, 객체 탐지 모델을 활용한 서비스를 제공합니다.
+                AI 모델 활용 역량을 증명하기 위해 시작된 프로젝트로 언어 모델과 글자 인식 모델, 객체 탐지 모델을 활용한 서비스를 제공합니다.
 
 
 
