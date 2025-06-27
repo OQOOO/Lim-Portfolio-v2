@@ -4,4 +4,4 @@
 
 
 This project is a modified version of [developer-portfolio](https://github.com/sreerag-rajan/developer-portfolio?ref=reactjsexample.com), developed by [sreerag-rajan](https://github.com/sreerag-rajan).
-Modifications were made by [Lim-Kihong].
+Modifications were made by 임기홍.
