@@ -153,6 +153,11 @@ function Landing() {
                         borderColor: theme.secondary,
                         maxWidth: '300px',
                         maxHeight: '300px',
+
+                        borderColor: 'rgb(225, 225, 225)',           // 테두리 색상
+                        borderWidth: '7px',             // 테두리 두께
+                        borderStyle: 'solid',           // 실선 테두리
+                        borderRadius: '50%',            // 원형
                     }}
                 />
                 <div
